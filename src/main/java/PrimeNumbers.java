@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
     public static void main(String[] args) {
-        while (true) {
             long number;
             boolean isPrime = true;
             Scanner scanner = new Scanner(System.in);
@@ -34,6 +33,5 @@ public class PrimeNumbers {
             } else {
                 System.out.println("Это не число брат");
             }
-        }
     }
 }
